@@ -12,3 +12,4 @@
 질의 내용: <%=request.getQueryString() %><br/>
 </body>
 </html>
+ 
