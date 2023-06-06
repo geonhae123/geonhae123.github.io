@@ -7,7 +7,8 @@
       table, thead, tbody, tfoot, tr, th, td { border: 2px solid black; border-collapse: collapse; text-align: center;} 
       
       .subject1 { background-color:#EAD1F1; } 
-      .subject2 { background-color:#FAF4C0; } th,td {width:50px;}
+      .subject2 { background-color:#FAF4C0; } 
+      th, td { width: calc(100% / 6); } /* Divide the width equally among 6 columns */
       .subject3 { background-color:#8CDBA2; }
       .subject4 { background-color:#3CA4B1; }
       .subject5 { background-color:#F2A57D; }
@@ -20,83 +21,83 @@
 
   <body>
     <table>
-
       <caption>&lt;1학기&gt; 시간표</caption>
 
       <thead>
-      
-          <th>시간</th> <th>월</th><th>화</th><th>수</th><th>목</th><th>금</th>
+        <tr>
+          <th>　Time　</th><th>　월　</th><th>　화　</th><th>　수　</th><th>　목　</th><th>　금　</th>
         </tr>
       </thead>
-      
-        <tbody>
-    
- <tr>
-  <td>1교시</td>
-  <td></td>
-  <td rowspan="2" class="subject3">자료구조및실습</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-<tr>
-  <td>2교시</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-<tr>
-  <td>3교시</td>
-  <td></td>
-  <td></td>
-  <td rowspan="2" class="subject3">자료구조및실습</td>
-  <td></td>
-  <td></td>              
-</tr>
-<tr>
-  <td>4교시</td>
-  <td></td>
-  <td rowspan="3" class="subject2">[ACT]한국음악의이해</td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-<tr>
-  <td>5교시</td>
-  <td rowspan="4" class="subject">C++프로그래밍</td>
-  <td></td>
-  <td rowspan="2" class="subject1">인터넷응용</td>
-  <td></td>
-  <td></td>
-</tr>
-<tr>
-  <td>6교시</td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-<tr>
-  <td>7교시</td>
-  <td></td>
-  <td rowspan="3" class="subject5">[Co-ACT]시가와음악</td>
-  <td>진로멘토링</td>
-  <td></td>
-  <td></td>
-</tr>
-<tr>
-  <td>8교시</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
-<tr>
-  <td>9교시</td>
-  <td></td>
-  <td rowspan="4" class="subject1">C++프로그래밍</td>
-  <td></td>
-  <td></td>
-  <td></td>
-</tr>
+      <tbody>
+        <tr>
+          <td>1교시</td>
+          <td></td>
+          <td rowspan="2" class="subject3">자료구조및실습</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2교시</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3교시</td>
+          <td></td>
+          <td></td>
+          <td rowspan="2" class="subject3">자료구조및실습</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>4교시</td>
+          <td></td>
+          <td rowspan="3" class="subject2">[ACT]한국음악의이해</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>5교시</td>
+          <td rowspan="4" class="subject6">C++프로그래밍</td>
+          <td></td>
+          <td rowspan="2" class="subject4">인터넷응용</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>6교시</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>7교시</td>
+          <td></td>
+          <td rowspan="3" class="subject5">[Co-ACT]시가와음악</td>
+          <td>진로멘토링</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>8교시</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>9교시</td>
+          <td></td>
+          <td rowspan="4" class="subject6">C++프로그래밍</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
