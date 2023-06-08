@@ -122,118 +122,164 @@
       .subject7 { background-color:#D9CC76; }
     </style> <!-- border-collapse: collapse 단선으로, 반대는 separate -->
 
-    <title>HTML5 시간표</title> 
-  </head>
+  <html>
+<head>
+  <title>HTML5 시간표</title>
+</head>
 
-  <body>
+<body>
+  <table>
+    <caption>&lt;1학기&gt; 시간표</caption>
+
+    <thead>
+      <tr>
+        <th>　Time　</th><th>　월　</th><th>　화　</th><th>　수　</th><th>　목　</th><th>　금　</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1교시</td>
+        <td></td>
+        <td rowspan="2" class="subject3">자료구조및실습</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2교시</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3교시</td>
+        <td></td>
+        <td></td>
+        <td rowspan="2" class="subject3">자료구조및실습</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>4교시</td>
+        <td></td>
+        <td rowspan="3" class="subject2">[ACT]한국음악의이해</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5교시</td>
+        <td rowspan="4" class="subject6">C++프로그래밍</td>
+        <td></td>
+        <td rowspan="2" class="subject4">인터넷응용</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>6교시</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>7교시</td>
+        <td></td>
+        <td rowspan="3" class="subject5">[Co-ACT]시가와음악</td>
+        <td>진로멘토링</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>8교시</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>9교시</td>
+        <td></td>
+        <td rowspan="4" class="subject6">C++프로그래밍</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr/>
+
+  <section>
+    <h3 id="chapter2">자격증</h3>
+    <p>취득할 자격증</p>
     <table>
-      <caption>&lt;1학기&gt; 시간표</caption>
-
-      <thead>
-        <tr>
-          <th>　Time　</th><th>　월　</th><th>　화　</th><th>　수　</th><th>　목　</th><th>　금　</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1교시</td>
-          <td></td>
-          <td rowspan="2" class="subject3">자료구조및실습</td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>2교시</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>3교시</td>
-          <td></td>
-          <td></td>
-          <td rowspan="2" class="subject3">자료구조및실습</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>4교시</td>
-          <td></td>
-          <td rowspan="3" class="subject2">[ACT]한국음악의이해</td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>5교시</td>
-          <td rowspan="4" class="subject6">C++프로그래밍</td>
-          <td></td>
-          <td rowspan="2" class="subject4">인터넷응용</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>6교시</td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>7교시</td>
-          <td></td>
-          <td rowspan="3" class="subject5">[Co-ACT]시가와음악</td>
-          <td>진로멘토링</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>8교시</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>9교시</td>
-          <td></td>
-          <td rowspan="4" class="subject6">C++프로그래밍</td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-      </tbody>
+      <tr>
+        <th>연도</th>
+        <th>자격증</th>
+        <th>발급처</th>
+      </tr>
+      <tr>
+        <td>2024</td>
+        <td><a>정보처리 기사</a></td>
+        <td>한국산업인력공단</td>
+      </tr>
+      <tr>
+        <td>2024</td>
+        <td><a>네트워크 관리사</a></td>
+        <td>한국정보통신작격협회</td>
+      </tr>
+      <tr>
+        <td>2025</td>
+        <td><a>리눅스 마스터 2급</a></td>
+        <td>한국산업인력공단</td>
+      </tr>
     </table>
-  </body>
+  </section>
+
+  <section>
+    <h3 id="chapter3">프로젝트</h3>
+    <p>나중에 수행할 프로젝트</p>
+    <table>
+      <tr>
+        <th>수행 연도</th>
+        <th>프로젝트 명</th>
+        <th>주요내용</th>
+      </tr>
+      <tr>
+        <td>2023</td>
+        <td><a>개인 홈페이지 작성</a></td>
+        <td>취업을 위한 개인 이력 중심의 홈페이지 작성</td>
+      </tr>
+      <tr>
+        <td>2024</td>
+        <td><a>이미지를 텍스트 변환하는 프로젝트</a></td>
+        <td>AlexNet을 기반으로 이미지를 텍스트로 변환하는 모델을 설계</td>
+      </tr>
+      <tr>
+        <td>2025</td>
+        <td><a>반려견 커밍시그널 예측</a></td>
+        <td>머신러닝을 사용하여 반려견의 행동의 무엇을 의미하는 지를 판단하는 모델을 설계</td>
+      </tr>
+    </table>
+  </section>
+
+  <aside>
+    <ul>
+      <li><a href="https://www.instagram.com/byeolsatam_dju/"><img src="../images/별동아리.png" alt=""></a></li>
+      <li><a href="https://www.dju.ac.kr/dju/na/ntt/selectNttInfo.do?mi=1188&nttSn=526988&bbsId=1040"><img src="../images/학습동아리.png" alt="" /></a></li>
+    </ul>
+  </aside>
+
+  <footer>
+    <div style="display: flex;">
+      <div style="flex: 1;">Column 1</div>
+      <div style="flex: 1;">Column 2</div>
+      <div style="flex: 1;">Column 3</div>
+    </div>
+  </footer>
+</body>
 </html>
-        
-                    <hr/>
-            </section>
-            </section>
-             <section> <h3 id="chapter2">자격증</h3>
-                <p> 취득할 자격증 </p>
-                <table> <tr> <th>연도</th>  <th>자격증</th>  <th>발급처</th> </tr> 
-                    <tr> <td>2024</td> <td><a >정보처리 기사</a></td> <td>한국산업인력공단</td> </tr> 
-                  <tr> <td>2024</td> <td><a >네트워크 관리사</a></td> <td>한국정보통신작격협회</td> </tr>
-                    <tr> <td>2025</td> <td><a> 리눅스 마스터 2급</a></td> <td>한국산업인력공단</td>  </tr> </table>
-            </section>
-            <section> <h3 id="chapter3">프로젝트</h3>
-                <p> 나중에 수행할 프로젝트</p>
-                <table> <tr> <th>수행 연도</th>  <th>프로젝트 명</th>  <th>주요내용</th> </tr> 
-                    <tr> <td>2023</td> <td><a >개인 홈페이지 작성 </a></td> <td>취업을 위한 개인 이력 중심의 홈페이지 작성</td> </tr> 
-                  <tr> <td>2024</td> <td><a >이미지를 텍스트 변환하는 프로젝트</a></td> <td>AlexNet을 기반으로 이미지를 텍스트로 변환하는 모델을 설계</td> </tr>
-                    <tr> <td>2025</td> <td><a> 반려견 커밍시그널 예측</a></td> <td>머신러닝을 사용하여 반려견의 행동의 무엇을 의미하는 지를 판단하는 모델을 설계</td>  </tr> </table>
-            </section>
-        </section> <!-- /main -->
-        <aside>
-            <ul>
-                <li><a href="https://www.instagram.com/byeolsatam_dju/"><img src="../images/별동아리.png" alt=""></a></li>
-                <li><a href="https://www.dju.ac.kr/dju/na/ntt/selectNttInfo.do?mi=1188&nttSn=526988&bbsId=1040"><img src="../images/학습동아리.png" alt=""/></a></li>
-                
-            </ul>
-        </aside>
-        <footer>
             <p>&copy; 20XX Made by Korea. All rights reserved.</p>
         </footer>
     </body>
